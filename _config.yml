@@ -210,14 +210,15 @@ compress_html:
     envs: development
 
 defaults:
-  # _posts
+    # _posts
   - scope:
       path: ""
       type: posts
     values:
-      read_time: true
       layout: single
       author_profile: true
+      read_time: true
+
 
   # _pages
   - scope:
