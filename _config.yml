@@ -96,7 +96,8 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - ["_pages"]
+  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -224,3 +225,12 @@ defaults:
       type: posts
     values:
       read_time: true
+      
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
