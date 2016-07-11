@@ -225,8 +225,7 @@ defaults:
       type: posts
     values:
       read_time: true
-      
-defaults:
+
   # _pages
   - scope:
       path: ""
