@@ -210,7 +210,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "/blog"
+      path: /blog
       type: posts
     values:
       read_time: true
