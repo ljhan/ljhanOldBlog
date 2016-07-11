@@ -6,12 +6,12 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "en-US"
+title                    : "ljhan"
+title_separator          : "||"
+name                     : "Alyssa Liu"
+description              : "my online playground for ideas and dreams"
+url                      : "https://ljhan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -37,9 +37,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "lissiichan"
 facebook:
-  username               :
+  username               : "lissiichan"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -66,27 +66,27 @@ author:
   name             : "Your Name"
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Evanston, IL"
+  email            : "alyssaliu2018@u.northwestern.edu"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : 
   foursquare       :
-  github           :
+  github           : "https://github.com/ljhan"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://instagram.com/ljhan38/"
   lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
+  linkedin         : "https://www.linkedin.com/in/alyssanliu"
+  pinterest        : 
+  soundcloud       : 
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  tumblr           :
-  twitter          :
+  tumblr           : "https://i-happi.tumblr.com"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -206,3 +206,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
