@@ -6,5 +6,8 @@ main:
 
   - title: "Tags"
     url: /tags/
+    
+  - title: "100 Days Project"
+    url: /100days/
 
 
