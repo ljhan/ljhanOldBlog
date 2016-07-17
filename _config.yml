@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "ljhan"
 title_separator          : "||"
 name                     : "Alyssa Liu"
-description              : "my online playground for ideas and dreams"
+description              : "my digital playground for ideas and dreams"
 url                      : "https://ljhan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -65,7 +65,7 @@ google_ad_slot           :
 author:
   name             : "Alyssa Liu"
   avatar           : "bio-photo.jpg"
-  bio              : "I'm a hopeful designer, coder, and student who loves music and food.  Welcome to my online playground."
+  bio              : "I'm a hopeful designer, coder, and student who loves music and food.  Welcome to my digital playground."
   location         : "Evanston, IL"
   email            : "alyssaliu2018@u.northwestern.edu"
   uri              :
