@@ -6,6 +6,9 @@ main:
 
   - title: "Tags"
     url: /tags/
+  
+  - title: "Hazumi"
+    url: /hazumi/
     
   - title: "100 Days Project"
     url: /hundreddaysproject/
