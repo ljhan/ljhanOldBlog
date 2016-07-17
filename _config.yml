@@ -8,13 +8,13 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "ljhan"
-title_separator          : "||"
+title_separator          : ":"
 name                     : "Alyssa Liu"
 description              : "my digital playground for ideas and dreams"
 url                      : "https://ljhan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "teaser.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
