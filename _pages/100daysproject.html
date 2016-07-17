@@ -5,8 +5,8 @@ title: "100 Days Project"
 author_profile: true
 ---
 
-<div class="tiles">
-  {% for post in site.categories.100days %}
-    {% include post-grid.html %}
-  {% endfor %}
-</div><!-- /.tiles -->
+{% include base_path %}
+
+{% for post in site.tags.100daysproject %}
+  {% include archive-single.html %}
+{% endfor %}
