@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 title: "ljhan?"
 tags: [me]
 ---
