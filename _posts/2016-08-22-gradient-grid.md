@@ -15,6 +15,8 @@ Overall, I'm happy with this!  Nothing crazy or fancy, but something I've always
 
 5x5
 ![Alt text](gradient2.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/gradient2.png" alt="">
 
 10x10
 ![Alt text](tengradient.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/tengradient.png" alt="">
