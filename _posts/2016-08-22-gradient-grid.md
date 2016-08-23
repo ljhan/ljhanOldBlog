@@ -14,9 +14,7 @@ After I recreated a cleaner, more efficient 5x5 gradient grid, I tackled modifyi
 Overall, I'm happy with this!  Nothing crazy or fancy, but something I've always wanted to make.  Peek the <a href="https://github.com/ljhan/Gradient-Grid" target="_blank">repo</a> and the results below!  
 
 5x5
-![Alt text](gradient2.png)
 <img src="{{ site.url }}{{ site.baseurl }}/images/gradient2.png" alt="">
 
 10x10
-![Alt text](tengradient.png)
 <img src="{{ site.url }}{{ site.baseurl }}/images/tengradient.png" alt="">
