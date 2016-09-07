@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 tags: [me]
 title: testingtesting123
 ---
