@@ -27,12 +27,12 @@ _Let's get down to our process, shall we?_
 - Now, the learning phase - we went through the tutorials and documentation, slowly picking apart the Metaverse demo, changing and adding entities (mostly geometric shapes) to the scene 
 - We figured out how to change the "sky" to a custom galaxy background, as well as make entities animated and interactive (finally we can play music!)
 - There are several types of interactive shapes in our scene: 
-	>1. a loopy, morphing overhead "sun" shape that continuously plays a looping track
-    >2. several linked geometric shapes playing samples that are controlled by a central shape that acts like a switch
-    >3. other spinning geometric shapes that play and pause music
-    >4. orbiting stars to add visual interest and contribute to the space theme
-    >5. a cat and a dog (that meow and bark, respectively, when you look at them)
-    >6. lots of random food items, many of which use textures (cos we had free time and wanted to make goofy items floating in space) - how many can you spot?
+	  1. a loopy, morphing overhead "sun" shape that continuously plays a looping track
+    2. several linked geometric shapes playing samples that are controlled by a central shape that acts like a switch
+    3. other spinning geometric shapes that play and pause music
+    4. orbiting stars to add visual interest and contribute to the space theme
+    5. a cat and a dog (that meow and bark, respectively, when you look at them)
+    6. lots of random foods, many of which use textures (cos we had free time and wanted to make goofy items floating in space) - how many can you spot?
     
 <img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-cat.png" alt="">
 <img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-dog.png" alt="">
