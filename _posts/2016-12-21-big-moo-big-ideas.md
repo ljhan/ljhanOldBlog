@@ -35,6 +35,7 @@ _Let's get down to our process, shall we?_
     6. lots of random foods, many of which use textures (cos we had free time and wanted to make goofy items floating in space) - how many can you spot?
     
 <img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-cats.png" alt="">
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-dog.png" alt="">
 
 ## Sunday, November 20th 2016
@@ -47,4 +48,4 @@ Overall, I was blown away by how much A-Frame streamlines the process of creatin
 
 Try [Big Moo, Big Ideas](https://gmnicke2.github.io/big-moo-big-ideas)  for yourself on either web or mobile!  (Source code <a href="https://github.com/gmnicke2/big-moo-big-ideas" target="_blank">here</a>)  We'd love to hear what you think.  Of course, this hack shouldn't be taken terribly "seriously" (as you might be able to tell from our [Devpost submission](https://devpost.com/software/big-moo-big-ideas)), but we had so much fun over the weekend creating it!  Working on a cool (stress-free) project with a good friend one weekend - what more could you ask for in a hackathon?
 
-
+Try <a href="https://gmnicke2.github.io/big-moo-big-ideas" target="_blank">Big Moo, Big Ideas</a> for yourself on either web or mobile!  (Source code <a href="https://github.com/gmnicke2/big-moo-big-ideas" target="_blank">here</a>)  We'd love to hear what you think.  Of course, this hack shouldn't be taken terribly "seriously" (as you might be able to tell from our <a href="https://devpost.com/software/big-moo-big-ideas" target="_blank">Devpost submission</a>), but we had so much fun over the weekend creating it!  Working on a cool (stress-free) project with a good friend one weekend - what more could you ask for in a hackathon?
