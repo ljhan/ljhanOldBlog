@@ -32,9 +32,13 @@ Let's get down to our process, shall we?
 - There are several types of interactive shapes in our scene: 
 	>1. a loopy, morphing overhead "sun" shape that continuously plays a looping track
     >2. several linked geometric shapes playing samples that are controlled by a central shape that acts like a switch
-    >3. other spinning geometric shapes that play 
+    >3. other spinning geometric shapes that play and pause music
+    >4. orbiting stars to add visual interest and contribute to the space theme
+    >5. a cat and a dog (that meow and bark, respectively, when you look at them)
+    >6. lots of random food items, many of which use textures (cos we had free time and wanted to make goofy items floating in space) - how many can you spot?
     
-Overall, I was blown away by how much A-Frame streamlines the process of creating a VR experience!  I've taken a computer graphics course
+Overall, I was blown away by how much A-Frame streamlines the process of creating a VR experience!  I've taken a computer graphics course in which we had to code even the simples shapes from scratch in WebGL, no libraries or anything.  We really appreciated that A-Frame handles the camera, shading, basic geometries, clicks, converting between normal and VR views.  Our project was just one html document - pure magic.  This was the smoothest, most stress-free hack I've ever done!  
 
-<a href=“https://devpost.com/software/big-moo-big-ideas” target=“_blank”></a>
-<a href=“https://gmnicke2.github.io/big-moo-big-ideas/” target=“_blank”></a>
+Try <a href=“https://gmnicke2.github.io/big-moo-big-ideas/” target=“_blank”>Big Moo, Big Ideas</a> for yourself on either web or mobile!  (Source code here)  We'd love to hear what you think.  Of course, this hack shouldn't be taken terribly "seriously" (as you might be able to tell from our <a href=“https://devpost.com/software/big-moo-big-ideas” target=“_blank”>Devpost submission</a>), but we had so much fun over the weekend creating it!  Working on a cool (stress-free) project with a good friend one weekend - what more could you ask for in a hackathon?
+
+
