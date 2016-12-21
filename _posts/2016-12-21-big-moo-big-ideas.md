@@ -34,7 +34,7 @@ _Let's get down to our process, shall we?_
     5. a cat and a dog (that meow and bark, respectively, when you look at them)
     6. lots of random foods, many of which use textures (cos we had free time and wanted to make goofy items floating in space) - how many can you spot?
     
-<img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-cat.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-cats.png" alt="">
 <img src="{{ site.url }}{{ site.baseurl }}/images/big-moo-dog.png" alt="">
 
 ## Sunday, November 20th 2016
