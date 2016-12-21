@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "lissiichan"
+  username               : "ljhan38"
 facebook:
   username               : "lissiichan"
   app_id                 :
@@ -67,11 +67,11 @@ author:
   avatar           : "me.jpg"
   bio              : "a hopeful designer, coder, and student who loves music and food.  welcome to my digital playground."
   location         : "Evanston, IL"
-  email            : "alyssaliu2018@u.northwestern.edu"
+  email            : "heylo@ljhan.com"
   uri              : "http://ljhan.com"
   bitbucket        :
-  codepen          :
-  dribbble         :
+  codepen          : "ljhan"
+  dribbble         : #"ljhan"
   flickr           :
   facebook         : 
   foursquare       :
@@ -85,8 +85,8 @@ author:
   soundcloud       : 
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  tumblr           : "i-happi"
-  twitter          : 
+  tumblr           : #"i-happi"
+  twitter          : "ljhan38"
   vine             :
   weibo            :
   xing             :
