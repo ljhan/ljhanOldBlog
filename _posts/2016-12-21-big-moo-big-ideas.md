@@ -1,10 +1,9 @@
 ---
-published: false
----
 tags: [code]
 title: Big Moo, Big Ideas
 header:
   teaser: big-moo-egg.png
+---
 
 Throwback to <a href="http://wildhacks.org/" target="_blank">Wildhacks 2016</a>!  Hosted at Northwestern, this was the first hackathon I attended back in 2014.  Now, this is my 5th hackathon :)  My best friend from high school <a href="https://github.com/gmnicke2" target="_blank">G</a> came from UIUC to make something cool, and we wanted to keep the project relatively freeform and lowkey - we just wanted to have fun, especially with the increasingly intense pressures from school (heh).  Since receiving my <a href="https://vr.google.com/cardboard/" target="_blank">Google Cardboard</a> at Grace Hopper, I've really wanted to make music-related VR experience for the platform.
 
