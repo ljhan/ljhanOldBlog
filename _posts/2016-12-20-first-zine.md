@@ -2,7 +2,7 @@
 tags: [graphic_design]
 title: "First Zine"
 header:
-  teaser: images/zine-habits-covers-content.png
+  teaser: zine-habits-covers-content.png
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/images/zine-habits-covers-content.png" alt="" width="500">
 
