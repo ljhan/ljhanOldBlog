@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /make100/
+title: "#make100"
+author_profile: true
+---
+
+<p><i>during which I attempt to make 100 new things</i></p>
+
+{% include base_path %}
+
+{% for post in site.tags.make100 %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
