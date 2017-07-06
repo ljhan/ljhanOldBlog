@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 tags: [make100]
 title: 2 - make eggcat move
 header:
