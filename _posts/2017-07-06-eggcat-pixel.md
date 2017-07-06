@@ -1,6 +1,6 @@
 ---
 tags: [make100]
-title: 1: make an eggcat
+title: 1 - make an eggcat
 header:
   teaser: make100/1eggcat/eggcat-fin-large-high.png
 ---
