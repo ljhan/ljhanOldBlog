@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 tags: [make100]
 title: 1: make an eggcat
 header:
