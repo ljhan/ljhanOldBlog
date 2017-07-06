@@ -8,7 +8,9 @@ header:
 Building off of my <a href="http://blog.ljhan.com/eggcat-pixel/" target="_blank">now-pixelated eggcat</a>, I wanted to create my first frame-by-frame pixel animation to bring him and his buddy to life.  All done in Photoshop CC.
 
 I created three distinct frames for the animated sprite:
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/make100/1eggcat/eggcat-frames.png" alt="">
 
 ta~da
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/make100/1eggcat/eggcat-fin-large.gif" alt="">
