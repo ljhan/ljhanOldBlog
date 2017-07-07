@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 tags: [make100]
 title: 3 - make a bunny blossom
 header:
