@@ -1,4 +1,4 @@
-# main links
+# main links links
 main:
 
   - title: "Posts"
@@ -9,4 +9,5 @@ main:
   
   - title: "Portfolio"
     url: /portfolio/
+
 
