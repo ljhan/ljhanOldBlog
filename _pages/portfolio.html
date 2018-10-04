@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /portfolio/
+title: "Archived Portfolio Projects"
+author_profile: true
+---
+<p><i>Projects I have migrated from my portfolio</i></p>
+
+{% include base_path %}
+
+{% for post in site.tags.portfolio %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
