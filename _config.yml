@@ -65,12 +65,12 @@ google_ad_slot           :
 author:
   name             : "Alyssa Liu"
   avatar           : "me.jpg"
-  bio              : "a hopeful designer, coder, and student who loves music and food.  welcome to my digital playground."
+  bio              : "budding game dev unicorn who loves music and food.  welcome to my digital playground."
   location         : "Evanston, IL"
   email            : "heylo@ljhan.com"
   uri              : "http://ljhan.com"
   bitbucket        :
-  codepen          : "ljhan"
+  codepen          : # "ljhan"
   dribbble         : #"ljhan"
   flickr           :
   facebook         : 
@@ -78,7 +78,7 @@ author:
   github           : "ljhan"
   google_plus      :
   keybase          :
-  instagram        : "ljhan38"
+  instagram        : # "ljhan38"
   lastfm           :
   linkedin         : "alyssanliu"
   pinterest        : 
