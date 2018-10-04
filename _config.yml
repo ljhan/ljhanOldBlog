@@ -5,6 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "blog.ljhan"
@@ -15,10 +24,11 @@ url                      : "https://ljhan.github.io" # the base hostname & proto
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "teaser_banner.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -28,12 +38,44 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-alexa_site_verification  :
 yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -55,10 +97,7 @@ analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -68,30 +107,47 @@ author:
   bio              : "budding game dev unicorn who loves music and food.  welcome to my digital playground."
   location         : "Seattle, WA"
   email            : "heylo@ljhan.com"
-  uri              : "http://ljhan.com"
-  bitbucket        :
-  codepen          : # "ljhan"
-  dribbble         : #"ljhan"
-  flickr           :
-  facebook         : 
-  foursquare       :
-  github           : "ljhan"
-  google_plus      :
-  keybase          :
-  instagram        : # "ljhan38"
-  lastfm           :
-  linkedin         : "alyssanliu"
-  pinterest        : 
-  soundcloud       : 
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           : #"i-happi"
-  twitter          : "ljhan38"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Reading Files
 include:
@@ -101,6 +157,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - vendor
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -121,6 +178,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -148,6 +207,12 @@ kramdown:
   enable_coderay: false
 
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -155,8 +220,8 @@ paginate_path: /page:num/
 timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
-gems:
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -209,8 +274,10 @@ compress_html:
   ignore:
     envs: development
 
+
+# Defaults
 defaults:
-    # _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -218,12 +285,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-
-
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      comments: # true
+      share: true
+      related: true
