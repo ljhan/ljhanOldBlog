@@ -1,5 +1,8 @@
 ---
-published: false
+tags: [portfolio]
+title: Honeycomb
+header:
+  teaser:
 ---
 For Design Thinking Doing, an introductory design course, my team practiced iterative user-centered design to design a set of adaptable study space furniture: the Honeycomb table and the Honeycomb study pod. Just as our furniture pieces fit together, throughout the project, I was fitting my team members together, like a honeycomb.
 
