@@ -1,6 +1,6 @@
 ---
 tags: [snackamari]
-title: SNACKAMARI (name tbd) Devlog #0
+title: SNACKAMARI (name tbd) Devlog 0
 header:
   teaser:
 ---
