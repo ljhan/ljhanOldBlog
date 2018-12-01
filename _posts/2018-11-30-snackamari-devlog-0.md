@@ -9,7 +9,7 @@ header:
 
 During a cafe meet up, we started to hash out the core experience by starting with Katamari.  The irresistible, essential element of the cult classic is the satisfying rolling system, which allows you to gradually scale up and clear out an arena.  To add our own spin to it, we want to also challenge players regarding _what_ they're rolling up.  By collecting different combinations of things, you get different results (in this case, recipes).
 
-The ~Snackamari~ experience as of now:
+The ~ Snackamari ~ experience as of now:
 - each level is centered around a key ingredient (e.g. strawberries, chocolate, etc.), with the first being key baking ingredients (e.g. flour, sugar, butter, eggs)
 - within each level, multiple recipes can be made (e.g. cookies, cakes, pies, and other treats)
 - to complete a recipe, the player has to accumulate a certain size (whether within a time limit or not)
