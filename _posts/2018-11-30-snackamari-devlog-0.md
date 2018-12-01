@@ -9,6 +9,8 @@ header:
 
 During a cafe meet up, we started to hash out the core experience by starting with Katamari.  The irresistible, essential element of the cult classic is the satisfying rolling system, which allows you to gradually scale up and clear out an arena.  To add our own spin to it, we want to also challenge players regarding _what_ they're rolling up.  By collecting different combinations of things, you get different results (in this case, recipes).
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/snackamari/brainstorming-1.jpg" alt="">
+
 The ~ Snackamari ~ experience as of now:
 - each level is centered around a key ingredient (e.g. strawberries, chocolate, etc.), with the first being key baking ingredients (e.g. flour, sugar, butter, eggs)
 - within each level, multiple recipes can be made (e.g. cookies, cakes, pies, and other treats)
@@ -17,6 +19,8 @@ The ~ Snackamari ~ experience as of now:
   - size requirement
   - ratio of ingredients according to recipe
   - "purity" (with "impure" ingredients being those not in the recipe)
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/snackamari/brainstorming-2.jpg" alt="">
 
 We were really challenged to think of ways to encourage continuous rolling rather than cherry-picking, which would take away from the satisfying experience of freely rolling up items in your path.  In addition, we want the ratio- and purity- based scoring to be fair, logical, and forgiving.  
 
