@@ -5,7 +5,7 @@ header:
   teaser:
 ---
 
-<a href="https://twitter.com/kylengelmann" target="_blank">Kyle</a> (frequent collaborator!) and I are starting a new project!  We both adore Katamari Damacy (塊魂), and wanted to incorporate its core rolling mechanic with another shared interest - SNACKS.  With this project, we also want to experiment with an unfamiliar engine, Unreal.
+<a href="https://twitter.com/kylengelmann" target="_blank">Kyle</a> (a frequent collaborator!) and I are starting a new project!  We both adore Katamari Damacy (塊魂), and wanted to incorporate its core rolling mechanic with another shared interest - SNACKS.  With this project, we also want to experiment with an unfamiliar engine, Unreal.
 
 During a cafe meet up, we started to hash out the core experience by starting with Katamari.  The irresistible, essential element of the cult classic is the satisfying rolling system, which allows you to gradually scale up and clear out an arena.  To add our own spin to it, we want to also challenge players regarding _what_ they're rolling up.  By collecting different combinations of things, you get different results (in this case, recipes).
 
